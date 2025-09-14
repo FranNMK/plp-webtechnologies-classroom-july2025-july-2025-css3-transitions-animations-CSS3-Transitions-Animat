@@ -1,5 +1,5 @@
 
-// Part 2: JavaScript Functions
+// Part 2: JavaScript functions
         
         // Global variable
         let animationInterval;
