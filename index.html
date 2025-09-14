@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Web Page with Cheering Greeting</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Bringing Web Pages to Life</h1>
+            <p>CSS3 Animations & JavaScript Functions</p>
+        </header>
+        
+        <!-- Part 1: CSS3 Transitions and Animations -->
+        <section id="part1">
+            <h2>Part 1: CSS3 Transitions and Animations</h2>
+            <p>This section demonstrates CSS transitions and keyframe animations. Hover over elements and watch them come to life!</p>
+            
+            <div class="animation-demo">
+                <div class="box hover-effect">Hover Me</div>
+                <div class="box continuous-animation">Pulsing</div>
+                <div class="box keyframe-animation">Rotating</div>
+            </div>
+            
+            <p>These effects are achieved using CSS transitions and @keyframes animations without any JavaScript.</p>
+        </section>
+        
+        <!-- Part 2: JavaScript Functions -->
+        <section id="part2">
+            <h2>Part 2: JavaScript Functions</h2>
+            <p>This section demonstrates JavaScript functions with parameters, return values, and scope awareness.</p>
+            
+            <div class="function-demo">
+                <div class="input-group">
+                    <input type="number" id="num1" placeholder="Enter first number">
+                    <input type="number" id="num2" placeholder="Enter second number">
+                    <button onclick="calculate()">Calculate Sum</button>
+                </div>
+                
+                <div class="result" id="calcResult">
+                    The result will appear here
+                </div>
+                
+                <h3>Cheering Greeting Feature</h3>
+                <div class="input-group">
+                    <input type="text" id="nameInput" placeholder="Enter your name">
+                    <button onclick="generateGreeting()">Greet Me!</button>
+                </div>
+                
+                <div id="greetingMessage">
+                    <div class="greeting-text">Your cheering greeting will appear here</div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Part 3: Combined CSS & JavaScript -->
+        <section id="part3">
+            <h2>Part 3: Combined CSS & JavaScript</h2>
+            <p>This section demonstrates how JavaScript can be used to trigger CSS animations dynamically.</p>
+            
+            <div class="combined-demo">
+                <div class="animation-controls">
+                    <button onclick="startAnimation()">Start Animation</button>
+                    <button onclick="stopAnimation()">Stop Animation</button>
+                    <button onclick="toggleModal()">Show Modal</button>
+                </div>
+                
+                <div class="animation-box" id="animatedBox">
+                    Animate Me!
+                </div>
+                
+                <p>Card flip on hover (pure CSS):</p>
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            Front
+                        </div>
+                        <div class="flip-card-back">
+                            Back
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Modal -->
+        <div class="modal" id="myModal">
+            <div class="modal-content">
+                <h3>Hello from a Modal!</h3>
+                <p>This modal uses CSS transitions and JavaScript to control its visibility.</p>
+                <button onclick="toggleModal()">Close</button>
+            </div>
+        </div>
+        
+        <footer>
+            <p>Assignment: Bringing Web Pages to Life with CSS & JavaScript</p>
+        </footer>
+    </div>
+<script src="script.js"></script>
+   
+</body>
+</html>
